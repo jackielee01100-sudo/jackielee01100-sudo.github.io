@@ -1,6 +1,6 @@
 ---
 title: Logbook
-date: 2026-03-01 12:00:00 +0900
+date: 2026-03-15 12:00:00 +0900
 categories: [Logbook, Dev]
 ---
-고민고민!
+고민고민!!
