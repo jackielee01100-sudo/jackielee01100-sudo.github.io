@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Jackie's log # the main title
 
-tagline: Ten years of repeating the first year is a one-year career # it will display as the subtitle
+tagline: Repeating the first year ten times over ten years is still just a one-year career. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
