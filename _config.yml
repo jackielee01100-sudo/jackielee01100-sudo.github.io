@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Jackie's log # the main title
 
-tagline: Slowly but Surely # it will display as the subtitle
+tagline: Ten years of repetition doesn't make a ten-year career # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
