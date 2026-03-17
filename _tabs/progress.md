@@ -10,3 +10,6 @@ order: 4
 1. How it works?<br>
 2. Why use this? Trade-off?<br>
 3. Real-world Case? 
+
+### Security & Privacy
+All posts are based on personal research and public documentation, ensuring no exposure of proprietary or confidential information.
