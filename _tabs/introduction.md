@@ -4,63 +4,75 @@ title: introduction
 icon: fas fa-tasks
 order: 3
 ---
-<div id="archives" class="pl-xl-2">
-  <div class="year lead">2026</div>
-  <ul class="list-unstyled">
-    <li>
-      <span class="date day">17</span>
-      <span class="date month">Mar</span>
-      <span class="ml-3"><strong>[Project]</strong> OARecorder MVP 완료 및 블로그 런칭</span>
-    </li>
-  </ul>
-
-  <div class="year lead">2022</div>
-  <ul class="list-unstyled">
-    <li>
-      <span class="date day">01</span>
-      <span class="date month">Jan</span>
-      <span class="ml-3"><strong>[Career]</strong> 백엔드 개발자로서의 새로운 도전 시작 (4년 차)</span>
-    </li>
-  </ul>
-
-  <div class="year lead">2014</div>
-  <ul class="list-unstyled">
-    <li>
-      <span class="date day">01</span>
-      <span class="date month">Mar</span>
-      <span class="ml-3"><strong>[Career]</strong> 해외영업 매니저 입사 (글로벌 비즈니스 8년)</span>
-    </li>
-  </ul>
-</div>
-
 <style>
-  /* Chirpy 테마의 타임라인을 강제로 정렬하는 스타일 */
-  #archives .year {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+  /* 전체 타임라인 컨테이너 */
+  #archives {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid #dfdfdf; /* 왼쪽 전체를 관통하는 기본 선 */
+    margin-left: 1rem;
   }
+
+  /* 연도 제목 스타일 */
+  #archives .year {
+    position: relative;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    left: -2.6rem; /* 선 위로 위치 조정 */
+    background: white; /* 선과 겹치는 부분 가리기 */
+    padding: 5px 0;
+    width: fit-content;
+  }
+
+  /* 연도 옆의 동그란 아이콘 */
+  #archives .year::before {
+    content: '';
+    position: absolute;
+    left: 2.15rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid #dfdfdf;
+    z-index: 1;
+  }
+
+  /* 리스트 항목 스타일 */
+  #archives ul {
+    margin-bottom: 0;
+  }
+
   #archives li {
     display: flex;
     align-items: center;
-    line-height: 2;
-    padding-left: 0.5rem;
+    position: relative;
+    padding: 1rem 0; /* 항목 간 간격을 균일하게 */
+    line-height: 1.5;
   }
+
+  /* 날짜와 텍스트 정렬 */
   #archives .date {
-    display: inline-block;
-    text-align: right;
+    display: flex;
+    align-items: baseline;
+    min-width: 4rem;
+    color: #6c757d;
   }
+
   #archives .day {
-    width: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 600;
+    margin-right: 0.3rem;
   }
+
   #archives .month {
-    width: 2.5rem;
     text-transform: uppercase;
     font-size: 0.8rem;
-    margin-left: 0.2rem;
   }
+
   .ml-3 {
-    margin-left: 1rem !important;
+    margin-left: 1.5rem !important;
   }
 </style>
