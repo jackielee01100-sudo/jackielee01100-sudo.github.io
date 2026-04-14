@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: fas fa-archive
 order: 3
 ---
 ## 🎯 Summary
