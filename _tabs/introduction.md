@@ -34,66 +34,51 @@ order: 3
 </div>
 
 <style>
-  /* 전체 타임라인 컨테이너 */
+  /* 1. 컨테이너 설정: 전체적인 왼쪽 여백 확보 */
   #archives {
-    position: relative;
-    padding-left: 2rem;
-    border-left: 2px solid #dfdfdf; /* 왼쪽 전체를 관통하는 기본 선 */
-    margin-left: 1rem;
+    padding-left: 1.5rem;
+    margin-top: 2rem;
   }
 
-  /* 연도 제목 스타일 */
+  /* 2. 연도 스타일: 선 위에 동그라미가 위치하도록 조정 */
   #archives .year {
     position: relative;
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    left: -2.6rem; /* 선 위로 위치 조정 */
-    background: white; /* 선과 겹치는 부분 가리기 */
-    padding: 5px 0;
-    width: fit-content;
-  }
-
-  /* 연도 옆의 동그란 아이콘 */
-  #archives .year::before {
-    content: '';
-    position: absolute;
-    left: 2.15rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: white;
-    border: 3px solid #dfdfdf;
-    z-index: 1;
-  }
-
-  /* 리스트 항목 스타일 */
-  #archives ul {
-    margin-bottom: 0;
-  }
-
-  #archives li {
+    margin: 3rem 0 1.5rem -0.5rem; /* 선 위치에 맞게 왼쪽으로 살짝 이동 */
     display: flex;
     align-items: center;
-    position: relative;
-    padding: 1rem 0; /* 항목 간 간격을 균일하게 */
-    line-height: 1.5;
   }
 
-  /* 날짜와 텍스트 정렬 */
+  /* 3. 세로 선: ul 태그의 왼쪽 테두리를 사용해 끊김 없이 연결 */
+  #archives ul {
+    list-style: none;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--main-border-color, #ececec); /* 테마 색상 사용 */
+    margin-left: 0.45rem; /* 연도 동그라미 중심에 맞춤 */
+    margin-bottom: 2rem;
+  }
+
+  /* 4. 리스트 항목: 선에서 뻗어나오는 점(옵션) 혹은 간격 유지 */
+  #archives li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 0;
+  }
+
+  /* 5. 날짜와 텍스트 정렬 */
   #archives .date {
     display: flex;
     align-items: baseline;
-    min-width: 4rem;
-    color: #6c757d;
+    min-width: 4.5rem;
+    color: var(--text-muted-color);
   }
 
   #archives .day {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-right: 0.3rem;
+    margin-right: 0.4rem;
   }
 
   #archives .month {
@@ -101,7 +86,21 @@ order: 3
     font-size: 0.8rem;
   }
 
+  /* 텍스트 내용 간격 */
   .ml-3 {
     margin-left: 1.5rem !important;
+  }
+
+  /* 연도 옆 동그라미 아이콘 위치 고정 */
+  #archives .year::after {
+    content: '';
+    position: absolute;
+    left: 0.35rem; /* 세로 선(border-left)의 위치와 일치시켜야 함 */
+    width: 12px;
+    height: 12px;
+    background: var(--main-wrapper-bg);
+    border: 3px solid var(--main-border-color, #ececec);
+    border-radius: 50%;
+    z-index: 1;
   }
 </style>
