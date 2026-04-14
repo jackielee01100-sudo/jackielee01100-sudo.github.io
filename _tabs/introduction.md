@@ -51,6 +51,11 @@ order: 1
       </div>
 
       <div class="timeline-item">
+        <div class="item-date">30 MAY</div>
+        <div class="item-text"><span class="license">[License]</span> iBT TOEFL (118/120) </div>
+      </div>
+
+      <div class="timeline-item">
         <div class="item-date">01 May</div>
         <div class="item-text"><span class="project">[Project]</span> App/Web for investment simulation </div>
       </div>
