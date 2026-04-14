@@ -28,8 +28,8 @@ url: 'https://jackielee01100-sudo.github.io'
 github:
   username: jackielee01100-sudo # change to your GitHub username
 
-# twitter:
-#   username: twitter_username # change to your Twitter username
+twitter:
+  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -50,7 +50,7 @@ webmaster_verifications:
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
-  facebook: https://www.linkedin.com/in/young-ju-yi-b7358516a
+  facebook: # fill in your facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
