@@ -42,7 +42,6 @@ social:
     # - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/young-ju-yi-b7358516a
 
 # Site Verification Settings
 webmaster_verifications:
@@ -51,7 +50,7 @@ webmaster_verifications:
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  facebook: https://www.linkedin.com/in/young-ju-yi-b7358516a
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
