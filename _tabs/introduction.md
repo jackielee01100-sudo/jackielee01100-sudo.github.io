@@ -2,7 +2,7 @@
 layout: page
 title: Introduction
 icon: fas fa-tasks
-order: 2
+order: 1
 ---
 
 <div class="custom-timeline">
