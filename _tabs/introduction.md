@@ -11,7 +11,7 @@ order: 1
     <div class="timeline-content">
       <div class="timeline-item">
         <div class="item-date">01 SEP</div>
-        <div class="item-text"><span class="license">[license]</span> SQLP</div>
+        <div class="item-text"><span class="license">[License]</span> SQLP</div>
       </div>
     </div>
   </div>
