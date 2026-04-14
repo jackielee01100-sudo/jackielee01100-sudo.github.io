@@ -17,11 +17,16 @@ order: 1
 
       <div class="timeline-item">
         <div class="item-date">30 NOV</div>
-        <div class="item-text"><span class="license">[License]</span> ADP 취득</div>
+        <div class="item-text"><span class="license">[License]</span> CFA Lv1 취득</div>
       </div>
 
       <div class="timeline-item">
         <div class="item-date">29 NOV</div>
+        <div class="item-text"><span class="license">[License]</span> ADP 취득</div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-date">28 NOV</div>
         <div class="item-text"><span class="license">[License]</span> 리눅스마스터1급 취득</div>
       </div>
 
