@@ -4,6 +4,35 @@ title: introduction
 icon: fas fa-tasks
 order: 3
 ---
+<div id="archives" class="pl-xl-2">
+  <div class="year lead">2026</div>
+  <ul class="list-unstyled">
+    <li>
+      <span class="date day">17</span>
+      <span class="date month">Mar</span>
+      <span class="ml-3"><strong>[Project]</strong> OARecorder MVP 완료 및 블로그 런칭</span>
+    </li>
+  </ul>
+
+  <div class="year lead">2022</div>
+  <ul class="list-unstyled">
+    <li>
+      <span class="date day">01</span>
+      <span class="date month">Jan</span>
+      <span class="ml-3"><strong>[Career]</strong> 백엔드 개발자로서의 새로운 도전 시작 (4년 차)</span>
+    </li>
+  </ul>
+
+  <div class="year lead">2014</div>
+  <ul class="list-unstyled">
+    <li>
+      <span class="date day">01</span>
+      <span class="date month">Mar</span>
+      <span class="ml-3"><strong>[Career]</strong> 해외영업 매니저 입사 (글로벌 비즈니스 8년)</span>
+    </li>
+  </ul>
+</div>
+
 <style>
   /* 전체 타임라인 컨테이너 */
   #archives {
