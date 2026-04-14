@@ -11,7 +11,7 @@ order: 3
     <div class="timeline-content">
       <div class="timeline-item">
         <div class="item-date">17 MAR</div>
-        <div class="item-text"><strong>[Project]</strong> OARecorder MVP 완료 및 블로그 런칭</div>
+        <div class="item-text"><span class="highlight-project">[Project]</span> OARecorder MVP 완료 및 블로그 런칭</div>
       </div>
     </div>
   </div>
@@ -116,4 +116,10 @@ order: 3
   .timeline-group:last-child::before {
     bottom: 50%;
   }
+  
+  .highlight-project {
+  color: #3498db; /* Jackie님이 원하는 색상 코드 (예: 파란색) */
+  font-weight: bold;
+  margin-right: 5px;
+}
 </style>
