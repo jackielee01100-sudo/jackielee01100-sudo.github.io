@@ -17,27 +17,32 @@ order: 1
 
       <div class="timeline-item">
         <div class="item-date">30 NOV</div>
-        <div class="item-text"><span class="license">[License]</span> CFA Lv1 취득</div>
+        <div class="item-text"><span class="license">[License]</span> CFA Lv1</div>
       </div>
 
       <div class="timeline-item">
         <div class="item-date">29 NOV</div>
-        <div class="item-text"><span class="license">[License]</span> ADP 취득</div>
+        <div class="item-text"><span class="license">[License]</span> ADP : Korean License (Advanced Data Analytics Professional)</div>
       </div>
 
       <div class="timeline-item">
         <div class="item-date">28 NOV</div>
-        <div class="item-text"><span class="license">[License]</span> 리눅스마스터1급 취득</div>
+        <div class="item-text"><span class="license">[License]</span> 리눅스마스터1급 Linux Master (Advanced/Grade 1)</div>
       </div>
 
        <div class="timeline-item">
         <div class="item-date">30 SEP</div>
-        <div class="item-text"><span class="license">[License]</span> DAP 취득</div>
+        <div class="item-text"><span class="license">[License]</span> DAP : Korean License (Data Architecture Professional)</div>
       </div>
       
        <div class="timeline-item">
         <div class="item-date">01 SEP</div>
-        <div class="item-text"><span class="license">[License]</span> SQLP 취득</div>
+        <div class="item-text"><span class="license">[License]</span> SQLP : Korean License (SQL Professional) </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-date">01 May</div>
+        <div class="item-text"><span class="project">[Project]</span> App/Web for investment simulation </div>
       </div>
       
     </div>
