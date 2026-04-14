@@ -9,7 +9,8 @@ order: 3
   <div class="year lead">2026</div>
   <ul class="list-unstyled">
     <li>
-      <span class="date month">Mar</span>
+      <span></span>
+      <span class="date month">14.Mar</span>
       <p><strong>[Project]</strong> OARecorder MVP 완료 및 블로그 런칭</p>
     </li>
   </ul>
