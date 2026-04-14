@@ -31,9 +31,6 @@ github:
 #twitter:
 #  username: fill out twitter username
 
-linkedin:
-  username: young-ju-yi-b7358516a
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -45,7 +42,7 @@ social:
     # - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://linkedin.com/in/username
+    # - https://linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
