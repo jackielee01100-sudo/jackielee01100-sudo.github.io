@@ -1,8 +1,8 @@
 ---
 layout: page
-title: introduction
+title: Introduction
 icon: fas fa-tasks
-order: 3
+order: 2
 ---
 
 <div class="custom-timeline">
