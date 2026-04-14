@@ -9,10 +9,17 @@ order: 1
   <div class="timeline-group">
     <div class="timeline-year">2026</div>
     <div class="timeline-content">
-      <div class="timeline-item">
+      
+       <div class="timeline-item">
         <div class="item-date">01 SEP</div>
-        <div class="item-text"><span class="license">[License]</span> SQLP</div>
+        <div class="item-text"><span class="license">[License]</span> SQLP 취득</div>
       </div>
+
+      <div class="timeline-item">
+        <div class="item-date">30 SEP</div>
+        <div class="item-text"><span class="license">[License]</span> DAP 취득</div>
+      </div>
+      
     </div>
   </div>
 
