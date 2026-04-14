@@ -11,8 +11,6 @@ order: 1
     <div class="timeline-content">
       <div class="timeline-item">
         <div class="item-date">01 SEP</div>
-        <div class="item-text"><span class="project">[Project]</span> OARecorder MVP 완료 및 블로그 런칭</div>
-        <div class="item-date">01 SEP</div>
         <div class="item-text"><span class="license">[license]</span> SQLP</div>
       </div>
     </div>
