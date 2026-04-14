@@ -30,6 +30,11 @@ order: 1
         <div class="item-text"><span class="license">[License]</span> 리눅스마스터1급 Linux Master (Advanced/Grade 1)</div>
       </div>
 
+      <div class="timeline-item">
+        <div class="item-date">01 Oct</div>
+        <div class="item-text"><span class="project">[Project]</span> App/Web for explaining nutritional supplement </div>
+      </div>
+
        <div class="timeline-item">
         <div class="item-date">30 SEP</div>
         <div class="item-text"><span class="license">[License]</span> DAP : Korean License (Data Architecture Professional)</div>
@@ -38,6 +43,11 @@ order: 1
        <div class="timeline-item">
         <div class="item-date">01 SEP</div>
         <div class="item-text"><span class="license">[License]</span> SQLP : Korean License (SQL Professional) </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-date">01 June</div>
+        <div class="item-text"><span class="project">[Project]</span> World Quant Ranking 10 </div>
       </div>
 
       <div class="timeline-item">
