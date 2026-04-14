@@ -47,7 +47,7 @@ order: 1
 
       <div class="timeline-item">
         <div class="item-date">01 June</div>
-        <div class="item-text"><span class="project">[Project]</span> World Quant Ranking 10 </div>
+        <div class="item-text"><span class="ha">[Honors & Awards]</span> World Quant Ranking 10 </div>
       </div>
 
       <div class="timeline-item">
@@ -173,6 +173,12 @@ order: 1
 
     .career {
   color: #008000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+      .ha {
+  color: #800080;
   font-weight: bold;
   margin-right: 5px;
 }
