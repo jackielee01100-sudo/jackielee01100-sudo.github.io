@@ -34,8 +34,6 @@ order: 1
         <div class="item-date">01 SEP</div>
         <div class="item-text"><span class="license">[License]</span> SQLP 취득</div>
       </div>
-
-
       
     </div>
   </div>
@@ -45,7 +43,7 @@ order: 1
     <div class="timeline-content">
       <div class="timeline-item">
         <div class="item-date">01 JAN</div>
-        <div class="item-text"><strong>[Career]</strong> 백엔드 개발자로서의 새로운 도전 시작 (4년 차)</div>
+        <div class="item-text"><span class="career">[Career]</span> 백엔드 개발자로서의 새로운 도전 시작 (4년 차)</div>
       </div>
     </div>
   </div>
@@ -55,7 +53,7 @@ order: 1
     <div class="timeline-content">
       <div class="timeline-item">
         <div class="item-date">01 MAR</div>
-        <div class="item-text"><strong>[Career]</strong> 해외영업 매니저 입사 (글로벌 비즈니스 8년)</div>
+        <div class="item-text"><span class="career">[Career]</span> 해외영업 매니저 입사 (글로벌 비즈니스 8년)</div>
       </div>
     </div>
   </div>
@@ -152,4 +150,11 @@ order: 1
   font-weight: bold;
   margin-right: 5px;
 }
+
+    .career {
+  color: #008000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 </style>
