@@ -19,15 +19,15 @@ order: 1
         <div class="item-date">30 NOV</div>
         <div class="item-text"><span class="license">[License]</span> CFA Lv1 : Chartered Financial Analyst</div>
       </div>
-
-      <div class="timeline-item">
-        <div class="item-date">29 NOV</div>
-        <div class="item-text"><span class="license">[License]</span> ADP : Korean License (Advanced Data Analytics Professional)</div>
-      </div>
-
+      
       <div class="timeline-item">
         <div class="item-date">28 NOV</div>
         <div class="item-text"><span class="license">[License]</span> 리눅스마스터1급 : Korean License (Linux Master Advanced/Grade 1)</div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-date">6 NOV</div>
+        <div class="item-text"><span class="license">[License]</span> ADP : Korean License (Advanced Data Analytics Professional)</div>
       </div>
 
       <div class="timeline-item">
